@@ -9,6 +9,6 @@ public class MyUsefulPlugin: NSObject, FlutterPlugin {
   }
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-    result("iOS " + UIDevice.current.systemVersion)
+    result("iOS custom " + UIDevice.current.systemVersion)
   }
 }
